@@ -5,19 +5,29 @@
 </head>
 
 <body>
-    <?php
-        $liter1 = 40.5;
-        $liter2 = 35.7;
-        $price = 1.499;
-        $cost = 0;
+    <div>
+        <div id="title">
+            <?php
+                echo "Einfache Rechnung in PHP";
+            ?>
+        </div>
 
-        // Mit der Addition und der Multiplikation wird der insgesammte preis ausgerechnet
-        $cost = $liter1 * $price + $liter2 * $price;
+        <div id="content">
+            <?php
+                $liter1 = 40.5;
+                $liter2 = 35.7;
+                $price = 1.499;
+                $cost = 0;
 
-        $output = "Die Benzinkosten betragen für " . ($liter1 + $liter2) . "Liter $cost €";
+                // Mit der Addition und der Multiplikation wird der insgesammte preis ausgerechnet
+                $cost = $liter1 * $price + $liter2 * $price;
 
-        echo $output;
-    ?>
+                $output = "Die Benzinkosten betragen für " . ($liter1 + $liter2) . " Liter $cost €";
+
+                echo $output;
+            ?>
+        </div>
+    </div>
 </body>
 </html>
 
