@@ -1,0 +1,43 @@
+* {
+    font-family: Arial;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0; margin: 0;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#title {
+    background-color: green;
+    width: 80vw;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#content {
+    background-color: lightgreen;
+    width: 80vw;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

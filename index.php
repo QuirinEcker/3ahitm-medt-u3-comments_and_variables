@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>3ahitm-medt-u3-comments_and_variables</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
